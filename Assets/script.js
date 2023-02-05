@@ -7,7 +7,6 @@
 // WHEN I click on a city in the search history
 // THEN I am again presented with current and future conditions for that city
 
-
 // Skeleton HTMl
 // Search Bar (form/input)
     // create divs that our data will be displayed in
@@ -15,7 +14,6 @@
 // basic CSS
 // bring in dayJS
 // space to store or house data
-
 
 // check out data returned from API 
 // requires langitude and longitude
@@ -37,12 +35,10 @@
 
     // //// render function ///////
     // programmatically display that data to the page///
-        ////for loop 2 times
+        ////for loop 5 times
         ///create x card
             ///add header, image, temp, wind, humidity
         ///append x card to some div
-
-
 
 
 // localStorage
