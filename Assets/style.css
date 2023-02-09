@@ -1,9 +1,53 @@
+* {
+    width: 100%;
+}
+
 header {
     background-color: darkblue;
     color: white;
     text-align: center;
+    padding: 10px;
 }
 
-.card {
+.container {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#forecast {
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+}
+
+#todays-weather {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+#forecast {
+    display: inline-flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    align-items: center;
+    width: 19%;
+}
+
+#history {
     border-style: none;
+    padding: 20px;
+}
+
+.btn {
+    background-color: darkblue;
+    color: white;
+}
+
+#city-name {
+    font-weight: bolder;
+    font-size: larger;
 }
